@@ -19,7 +19,9 @@ class TocMachine(GraphMachine):
         print("I'm entering state1")
 
         reply_token = event.reply_token
+        print(reply_token)
         send_text_message(reply_token, "Trigger state1")
+        print("Send message")
         self.go_back()
 
     def on_exit_state1(self):
