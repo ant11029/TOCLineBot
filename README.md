@@ -15,8 +15,8 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 
 * `user`
 	* `state1`
-		*input : "吃啥"
-		*reply : ramdon get one advance about what you can eat
+		* input : "吃啥"
+		* reply : ramdon get one advance about what you can eat
 	* `state2`
-		*input : "fsm"
-		*reply : the picture 0f the finite state machine
+		* input : "fsm"
+		* reply : the picture 0f the finite state machine
